@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #cf6b6b;
+}
+nav {
+  width: 900px;
+  margin: 19px auto;
+  background-color: aliceblue;
+  height: 30px;
+  display: flex;
+}
+nav a {
+  flex-grow: 1;
+  margin-left: 19px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.first {
+  width: 700px;
+  border: solid black 1px;
+  padding: 30px;
+  margin: 19px auto;
+  background-image: url(../pct/background.png);
+  overflow: hidden;
+}
+.levi {
+  width: 300px;
+  float: left;
+}
+.desni {
+  margin-left: 35px;
+  width: 300px;
+  float: left;
+}
+.first a:hover {
+  color: rgb(10, 9, 8);
+}
